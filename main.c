@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <inttypes.h>
+#include <tinkoff.h>
 
 #include "tommath.h"
 #include "seed.h"
@@ -20,6 +21,8 @@ int main()
     u_int32_t key [4] = {0x00000000, 0x00000000, 0x00000000, 0x00000000};
     u_int32_t encrypt_text [4];
     u_int32_t decrypt_text [4];
+    log = tinkoff/auth
+    pas = tinkoff/passwrd
 
     printf("\nInitial text: ");
     for (int i = 0; i < 4; i++)
